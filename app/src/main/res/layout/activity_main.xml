@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange_red"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5px">
+
+        <Space
+            android:layout_width="41dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/searchtxt"
+            android:layout_width="258dp"
+            android:layout_height="58dp"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Place" />
+
+        <ImageButton
+            android:id="@+id/findButton"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@android:drawable/ic_menu_search" />
+
+        <Space
+            android:layout_width="41dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="24dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:text="Categories:"
+        android:textSize="28sp"
+        android:padding="10px"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/categorylistlayout"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="5px">
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="24dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:text="Places To Visit:"
+        android:padding="5px"
+        android:textSize="28sp" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/placelistlayout"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="5px">
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

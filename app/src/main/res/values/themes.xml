@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NammaTulunadu" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorSurface">@color/orange_red</item>
+
+        <!-- Button colors -->
+        <item name="buttonStyle">@style/Widget.MyApp.Button</item>
+
+        <!-- Customize default app bar color -->
+        <item name="toolbarStyle">@style/Widget.MyApp.Toolbar</item>
+    </style>
+
+    <style name="Widget.MyApp.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">?attr/colorSurface</item>
+        <item name="titleTextColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <!-- Custom Button style -->
+    <style name="Widget.MyApp.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">?attr/colorSurface</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="Theme.NammaTulunadu" parent="Base.Theme.NammaTulunadu" />
+</resources>
