@@ -1,7 +1,7 @@
 Basic tour of the App!
 
 ![WhatsApp Image 2024-11-15 at 20 09 36_6bb3b643](https://github.com/user-attachments/assets/70df2632-781f-475c-979d-57ff7de88385)
-An introductory screen that appears when an application is launched, typically for a brief moment before the main content is loaded
+\nAn introductory screen that appears when an application is launched, typically for a brief moment before the main content is loaded
 ______________________________________________________________________________________________________
 
 ![WhatsApp Image 2024-11-15 at 20 14 04_f875098b](https://github.com/user-attachments/assets/2c3c6fbe-d79e-4c9e-b1b6-711d6d69ff6b)![WhatsApp Image 2024-11-15 at 20 15 33_3e57a395](https://github.com/user-attachments/assets/2f7dc1f5-ee93-46ba-8970-7ad21a694566)
